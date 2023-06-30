@@ -8,10 +8,10 @@ import Card from './Card';
 //and will have to change the entire DOM, instead of just knowing which one to delete
 //so we just need to remember, when we do a loop we need to add a key prop and wrap in {} because it's javascript
 const CardList = ({robots}) => {
-    if(true)
-    {
-        throw new Error('NOOOOOOO!');
-    }
+    // if(true)
+    // {
+    //     throw new Error('NOOOOOOO!');
+    // }
     return (
         <div>
             {    robots.map((user, i) => {
